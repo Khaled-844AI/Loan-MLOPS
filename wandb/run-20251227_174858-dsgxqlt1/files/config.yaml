@@ -1,0 +1,88 @@
+_wandb:
+    value:
+        cli_version: 0.23.1
+        e:
+            br48fdy3m5w3esq7o5epfh7dz1zy5k1y:
+                codePath: loan_classifier.py
+                codePathLocal: loan_classifier.py
+                cpu_count: 10
+                cpu_count_logical: 12
+                disk:
+                    /:
+                        total: "254973698048"
+                        used: "156769452032"
+                email: mouadkhaled2004@gmail.com
+                executable: C:\Users\DELL\AppData\Local\Programs\Python\Python313\python.exe
+                host: KhaledoO
+                memory:
+                    total: "33658920960"
+                os: Windows-11-10.0.26200-SP0
+                program: C:\Users\DELL\SEDS\MLOPS Project\loan_classifier.py
+                python: CPython 3.13.9
+                root: C:\Users\DELL\SEDS\MLOPS Project
+                startedAt: "2025-12-27T16:48:58.496195Z"
+                writerId: br48fdy3m5w3esq7o5epfh7dz1zy5k1y
+        m: []
+        python_version: 3.13.9
+        t:
+            "1":
+                - 5
+                - 6
+                - 53
+                - 105
+            "2":
+                - 5
+                - 6
+                - 53
+                - 105
+            "3":
+                - 2
+                - 14
+                - 16
+            "4": 3.13.9
+            "5": 0.23.1
+            "8":
+                - 3
+            "12": 0.23.1
+            "13": windows-amd64
+        visualize:
+            confusion_matrix:
+                panel_config:
+                    fieldSettings:
+                        Actual: Actual
+                        Predicted: Predicted
+                        nPredictions: nPredictions
+                    panelDefId: wandb/confusion_matrix/v1
+                    stringSettings:
+                        title: Confusion Matrix Curve
+                    transform:
+                        name: tableWithLeafColNames
+                    userQuery:
+                        queryFields:
+                            - args:
+                                - name: runSets
+                                  value: ${runSets}
+                              fields:
+                                - fields: []
+                                  name: id
+                                - fields: []
+                                  name: name
+                                - fields: []
+                                  name: _defaultColorIndex
+                                - args:
+                                    - name: tableKey
+                                      value: confusion_matrix_table
+                                  fields: []
+                                  name: summaryTable
+                              name: runSets
+                panel_type: Vega2
+colsample_bytree:
+    value: 0.7544207651700006
+learning_rate:
+    value: 0.030952487598058624
+max_depth:
+    value: 9
+n_estimators:
+    value: 300
+subsample:
+    value: 0.950556292018865

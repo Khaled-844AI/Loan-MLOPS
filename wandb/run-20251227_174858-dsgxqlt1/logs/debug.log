@@ -1,0 +1,23 @@
+2025-12-27 17:48:58,505 INFO    MainThread:24940 [wandb_init.py:setup_run_log_directory():714] Logging user logs to C:\Users\DELL\SEDS\MLOPS Project\wandb\run-20251227_174858-dsgxqlt1\logs\debug.log
+2025-12-27 17:48:58,505 INFO    MainThread:24940 [wandb_init.py:setup_run_log_directory():715] Logging internal logs to C:\Users\DELL\SEDS\MLOPS Project\wandb\run-20251227_174858-dsgxqlt1\logs\debug-internal.log
+2025-12-27 17:48:58,505 INFO    MainThread:24940 [wandb_init.py:init():841] calling init triggers
+2025-12-27 17:48:58,505 INFO    MainThread:24940 [wandb_init.py:init():846] wandb.init called with sweep_config: {'colsample_bytree': 0.7544207651700006, 'learning_rate': 0.030952487598058624, 'max_depth': 9, 'n_estimators': 300, 'subsample': 0.950556292018865}
+config: {'max_depth': 7, 'subsample': 0.9663195213872114, 'n_estimators': 300, 'learning_rate': 0.022790063904691207, 'colsample_bytree': 0.7398690575959637, '_wandb': {}}
+2025-12-27 17:48:58,577 INFO    MainThread:24940 [wandb_init.py:init():889] starting backend
+2025-12-27 17:48:58,577 INFO    MainThread:24940 [wandb_init.py:init():892] sending inform_init request
+2025-12-27 17:48:58,583 INFO    MainThread:24940 [wandb_init.py:init():900] backend started and connected
+2025-12-27 17:48:58,584 INFO    MainThread:24940 [wandb_run.py:_config_callback():1396] config_cb None None {'colsample_bytree': 0.7544207651700006, 'learning_rate': 0.030952487598058624, 'max_depth': 9, 'n_estimators': 300, 'subsample': 0.950556292018865}
+2025-12-27 17:48:58,585 INFO    MainThread:24940 [wandb_init.py:init():970] updated telemetry
+2025-12-27 17:48:58,588 INFO    MainThread:24940 [wandb_init.py:init():994] communicating run to backend with 90.0 second timeout
+2025-12-27 17:48:59,420 INFO    MainThread:24940 [wandb_init.py:init():1041] starting run threads in backend
+2025-12-27 17:48:59,772 INFO    MainThread:24940 [wandb_run.py:_console_start():2521] atexit reg
+2025-12-27 17:48:59,773 INFO    MainThread:24940 [wandb_run.py:_redirect():2369] redirect: wrap_raw
+2025-12-27 17:48:59,773 INFO    MainThread:24940 [wandb_run.py:_redirect():2438] Wrapping output streams.
+2025-12-27 17:48:59,773 INFO    MainThread:24940 [wandb_run.py:_redirect():2461] Redirects installed.
+2025-12-27 17:48:59,774 INFO    MainThread:24940 [wandb_init.py:init():1081] run started, returning control to user process
+2025-12-27 17:49:08,293 INFO    MainThread:24940 [wandb_run.py:_config_callback():1396] config_cb ('_wandb', 'visualize', 'confusion_matrix') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/confusion_matrix/v1', 'fieldSettings': {'Actual': 'Actual', 'Predicted': 'Predicted', 'nPredictions': 'nPredictions'}, 'stringSettings': {'title': 'Confusion Matrix Curve'}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'confusion_matrix_table'}], 'fields': []}]}]}}} None
+2025-12-27 17:49:10,019 INFO    MainThread:24940 [wandb_run.py:_finish():2287] finishing run mouadkhaled2004-esi/lending_club_2015/dsgxqlt1
+2025-12-27 17:49:10,020 INFO    MainThread:24940 [wandb_run.py:_atexit_cleanup():2486] got exitcode: 0
+2025-12-27 17:49:10,020 INFO    MainThread:24940 [wandb_run.py:_restore():2468] restore
+2025-12-27 17:49:10,020 INFO    MainThread:24940 [wandb_run.py:_restore():2474] restore done
+2025-12-27 17:49:29,794 INFO    MainThread:24940 [wandb_run.py:_footer_sync_info():3862] logging synced files

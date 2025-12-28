@@ -1,0 +1,17 @@
+Loading 2018 data from data_2018/data_2018.csv...
+Original size: 56311. Sampled 10% size: 5631
+Preprocessing...
+Downloading model...
+[34m[1mwandb[0m:   1 of 1 files downloaded.
+Fetching 2015 baseline stats...
+⚠️ Warning: Could not auto-fetch 2015 stats from API.
+➡️ Using safe default values for comparison.
+
+==================================================
+Threshold Used: 0.8
+METRIC          | 2015 (BASELINE) | 2018 (NEW)
+==================================================
+Accuracy        | 0.9150          | 0.5653
+ROC AUC         | 0.9620          | 0.9662
+F1 Score        | 0.8000          | 0.4021
+==================================================

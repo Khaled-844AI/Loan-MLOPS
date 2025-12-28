@@ -1,0 +1,56 @@
+_wandb:
+    value:
+        cli_version: 0.23.1
+        e:
+            g733o14n3hfejwv1sg5ml062j6xmoill:
+                codePath: loan_classifier.py
+                codePathLocal: loan_classifier.py
+                cpu_count: 10
+                cpu_count_logical: 12
+                disk:
+                    /:
+                        total: "254973698048"
+                        used: "156767793152"
+                email: mouadkhaled2004@gmail.com
+                executable: C:\Users\DELL\AppData\Local\Programs\Python\Python313\python.exe
+                host: KhaledoO
+                memory:
+                    total: "33658920960"
+                os: Windows-11-10.0.26200-SP0
+                program: C:\Users\DELL\SEDS\MLOPS Project\loan_classifier.py
+                python: CPython 3.13.9
+                root: C:\Users\DELL\SEDS\MLOPS Project
+                startedAt: "2025-12-27T16:47:06.702797Z"
+                writerId: g733o14n3hfejwv1sg5ml062j6xmoill
+        m: []
+        python_version: 3.13.9
+        t:
+            "1":
+                - 5
+                - 6
+                - 53
+                - 105
+            "2":
+                - 5
+                - 6
+                - 53
+                - 105
+            "3":
+                - 2
+                - 14
+            "4": 3.13.9
+            "5": 0.23.1
+            "8":
+                - 3
+            "12": 0.23.1
+            "13": windows-amd64
+colsample_bytree:
+    value: 0.6990575271038704
+learning_rate:
+    value: 0.03204329252467141
+max_depth:
+    value: 7
+n_estimators:
+    value: 300
+subsample:
+    value: 0.9920946572379044

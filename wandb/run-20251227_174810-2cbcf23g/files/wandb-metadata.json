@@ -1,0 +1,24 @@
+{
+  "os":  "Windows-11-10.0.26200-SP0",
+  "python":  "CPython 3.13.9",
+  "startedAt":  "2025-12-27T16:48:10.470243Z",
+  "program":  "C:\\Users\\DELL\\SEDS\\MLOPS Project\\loan_classifier.py",
+  "codePath":  "loan_classifier.py",
+  "codePathLocal":  "loan_classifier.py",
+  "email":  "mouadkhaled2004@gmail.com",
+  "root":  "C:\\Users\\DELL\\SEDS\\MLOPS Project",
+  "host":  "KhaledoO",
+  "executable":  "C:\\Users\\DELL\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+  "cpu_count":  10,
+  "cpu_count_logical":  12,
+  "disk":  {
+    "/":  {
+      "total":  "254973698048",
+      "used":  "156768493568"
+    }
+  },
+  "memory":  {
+    "total":  "33658920960"
+  },
+  "writerId":  "1a07kmtep7l1wmb72zbfydh3whu7ml2e"
+}

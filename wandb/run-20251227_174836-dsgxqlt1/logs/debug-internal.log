@@ -1,0 +1,13 @@
+{"time":"2025-12-27T17:48:39.2449595+01:00","level":"INFO","msg":"stream: starting","core version":"0.23.1"}
+{"time":"2025-12-27T17:48:39.7059155+01:00","level":"INFO","msg":"stream: created new stream","id":"dsgxqlt1"}
+{"time":"2025-12-27T17:48:39.7059155+01:00","level":"INFO","msg":"handler: started","stream_id":"dsgxqlt1"}
+{"time":"2025-12-27T17:48:39.7091296+01:00","level":"INFO","msg":"stream: started","id":"dsgxqlt1"}
+{"time":"2025-12-27T17:48:39.7091296+01:00","level":"INFO","msg":"writer: started","stream_id":"dsgxqlt1"}
+{"time":"2025-12-27T17:48:39.7091296+01:00","level":"INFO","msg":"sender: started","stream_id":"dsgxqlt1"}
+{"time":"2025-12-27T17:48:44.27068+01:00","level":"WARN","msg":"sender: sendUseArtifact: job builder disabled, skipping"}
+{"time":"2025-12-27T17:48:51.7337951+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-12-27T17:48:52.3111213+01:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-12-27T17:48:52.3347799+01:00","level":"INFO","msg":"stream: closing","id":"dsgxqlt1"}
+{"time":"2025-12-27T17:48:52.3347799+01:00","level":"INFO","msg":"handler: closed","stream_id":"dsgxqlt1"}
+{"time":"2025-12-27T17:48:52.4057141+01:00","level":"INFO","msg":"sender: closed","stream_id":"dsgxqlt1"}
+{"time":"2025-12-27T17:48:52.4057141+01:00","level":"INFO","msg":"stream: closed","id":"dsgxqlt1"}

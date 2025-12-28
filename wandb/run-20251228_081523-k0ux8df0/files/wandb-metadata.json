@@ -1,0 +1,24 @@
+{
+  "os":  "Windows-11-10.0.26200-SP0",
+  "python":  "CPython 3.13.9",
+  "startedAt":  "2025-12-28T07:15:23.902214Z",
+  "program":  "C:\\Users\\DELL\\SEDS\\MLOPS Project\\test.py",
+  "codePath":  "test.py",
+  "codePathLocal":  "test.py",
+  "email":  "mouadkhaled2004@gmail.com",
+  "root":  "C:\\Users\\DELL\\SEDS\\MLOPS Project",
+  "host":  "KhaledoO",
+  "executable":  "C:\\Users\\DELL\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+  "cpu_count":  10,
+  "cpu_count_logical":  12,
+  "disk":  {
+    "/":  {
+      "total":  "254973698048",
+      "used":  "156811300864"
+    }
+  },
+  "memory":  {
+    "total":  "33658920960"
+  },
+  "writerId":  "mdcqveg3acnqj24ejpra04if01t7leen"
+}

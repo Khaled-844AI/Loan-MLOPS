@@ -1,0 +1,27 @@
+2025-12-27 17:44:45,687 INFO    Thread-8 (_run_job):24940 [wandb_setup.py:_flush():80] Current SDK version is 0.23.1
+2025-12-27 17:44:45,688 INFO    Thread-8 (_run_job):24940 [wandb_setup.py:_flush():80] Configure stats pid to 24940
+2025-12-27 17:44:45,688 INFO    Thread-8 (_run_job):24940 [wandb_setup.py:_flush():80] Loading settings from C:\Users\DELL\.config\wandb\settings
+2025-12-27 17:44:45,688 INFO    Thread-8 (_run_job):24940 [wandb_setup.py:_flush():80] Loading settings from C:\Users\DELL\SEDS\MLOPS Project\wandb\settings
+2025-12-27 17:44:45,688 INFO    Thread-8 (_run_job):24940 [wandb_setup.py:_flush():80] Loading settings from environment variables
+2025-12-27 17:44:45,689 INFO    Thread-8 (_run_job):24940 [wandb_init.py:setup_run_log_directory():714] Logging user logs to C:\Users\DELL\SEDS\MLOPS Project\wandb\run-20251227_174445-gxu4i6zf\logs\debug.log
+2025-12-27 17:44:45,690 INFO    Thread-8 (_run_job):24940 [wandb_init.py:setup_run_log_directory():715] Logging internal logs to C:\Users\DELL\SEDS\MLOPS Project\wandb\run-20251227_174445-gxu4i6zf\logs\debug-internal.log
+2025-12-27 17:44:45,690 INFO    Thread-8 (_run_job):24940 [wandb_init.py:init():841] calling init triggers
+2025-12-27 17:44:45,690 INFO    Thread-8 (_run_job):24940 [wandb_init.py:init():846] wandb.init called with sweep_config: {'colsample_bytree': 0.9759394023267854, 'learning_rate': 0.06117615318302788, 'max_depth': 5, 'n_estimators': 500, 'subsample': 0.6382184061349742}
+config: {'_wandb': {}}
+2025-12-27 17:44:45,690 INFO    Thread-8 (_run_job):24940 [wandb_init.py:init():889] starting backend
+2025-12-27 17:44:49,196 INFO    Thread-8 (_run_job):24940 [wandb_init.py:init():892] sending inform_init request
+2025-12-27 17:44:49,199 INFO    Thread-8 (_run_job):24940 [wandb_init.py:init():900] backend started and connected
+2025-12-27 17:44:49,201 INFO    Thread-8 (_run_job):24940 [wandb_run.py:_config_callback():1396] config_cb None None {'colsample_bytree': 0.9759394023267854, 'learning_rate': 0.06117615318302788, 'max_depth': 5, 'n_estimators': 500, 'subsample': 0.6382184061349742}
+2025-12-27 17:44:49,202 INFO    Thread-8 (_run_job):24940 [wandb_init.py:init():970] updated telemetry
+2025-12-27 17:44:49,204 INFO    Thread-8 (_run_job):24940 [wandb_init.py:init():994] communicating run to backend with 90.0 second timeout
+2025-12-27 17:44:50,103 INFO    Thread-8 (_run_job):24940 [wandb_init.py:init():1041] starting run threads in backend
+2025-12-27 17:44:50,425 INFO    Thread-8 (_run_job):24940 [wandb_run.py:_console_start():2521] atexit reg
+2025-12-27 17:44:50,425 INFO    Thread-8 (_run_job):24940 [wandb_run.py:_redirect():2369] redirect: wrap_raw
+2025-12-27 17:44:50,425 INFO    Thread-8 (_run_job):24940 [wandb_run.py:_redirect():2438] Wrapping output streams.
+2025-12-27 17:44:50,425 INFO    Thread-8 (_run_job):24940 [wandb_run.py:_redirect():2461] Redirects installed.
+2025-12-27 17:44:50,426 INFO    Thread-8 (_run_job):24940 [wandb_init.py:init():1081] run started, returning control to user process
+2025-12-27 17:45:01,650 INFO    Thread-8 (_run_job):24940 [wandb_run.py:_finish():2287] finishing run mouadkhaled2004-esi/lending_club_2015/gxu4i6zf
+2025-12-27 17:45:01,651 INFO    Thread-8 (_run_job):24940 [wandb_run.py:_atexit_cleanup():2486] got exitcode: 0
+2025-12-27 17:45:01,652 INFO    Thread-8 (_run_job):24940 [wandb_run.py:_restore():2468] restore
+2025-12-27 17:45:01,652 INFO    Thread-8 (_run_job):24940 [wandb_run.py:_restore():2474] restore done
+2025-12-27 17:45:03,092 INFO    Thread-8 (_run_job):24940 [wandb_run.py:_footer_sync_info():3862] logging synced files

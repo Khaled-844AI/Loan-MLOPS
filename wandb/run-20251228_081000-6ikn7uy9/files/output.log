@@ -1,0 +1,83 @@
+Loading 2018 data from data_2018/data_2018.csv...
+Original size: 56311. Sampled 10% size: 5631
+Preprocessing...
+Downloading model...
+[34m[1mwandb[0m:   1 of 1 files downloaded.
+Fetching 2015 baseline stats...
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python313\Lib\site-packages\wandb\apis\public\sweeps.py", line 398, in get
+    response = client.execute(query, variable_values=variables)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python313\Lib\site-packages\wandb\apis\public\api.py", line 111, in execute
+    return self._execute_decorated(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python313\Lib\site-packages\wandb\sdk\lib\retry.py", line 319, in wrapped_fn
+    return retrier(*args, **kargs)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python313\Lib\site-packages\wandb\sdk\lib\retry.py", line 157, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python313\Lib\site-packages\wandb\apis\public\api.py", line 123, in _wrapped
+    return self._client.execute(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python313\Lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python313\Lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python313\Lib\site-packages\wandb\sdk\lib\gql_request.py", line 71, in execute
+    request.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python313\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://api.wandb.ai/graphql
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\SEDS\MLOPS Project\test.py", line 91, in <module>
+    producer_run = artifact.logged_by()
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python313\Lib\site-packages\wandb\sdk\artifacts\_validators.py", line 253, in wrapper
+    return method(self, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python313\Lib\site-packages\wandb\sdk\artifacts\artifact.py", line 2610, in logged_by
+    return Run(client, project.entity.name, project.name, name)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python313\Lib\site-packages\wandb\apis\public\runs.py", line 599, in __init__
+    self.load(force=not _attrs)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python313\Lib\site-packages\wandb\apis\public\runs.py", line 824, in load
+    return self._load_with_fragment(
+           ~~~~~~~~~~~~~~~~~~~~~~~~^
+        LIGHTWEIGHT_RUN_FRAGMENT, LIGHTWEIGHT_RUN_FRAGMENT_NAME, force
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python313\Lib\site-packages\wandb\apis\public\runs.py", line 745, in _load_with_fragment
+    self.sweep = public.Sweep.get(
+                 ~~~~~~~~~~~~~~~~^
+        self.client,
+        ^^^^^^^^^^^^
+    ...<4 lines>...
+        withRuns=False,
+        ^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python313\Lib\site-packages\wandb\apis\public\sweeps.py", line 403, in get
+    response = client.execute(query, variable_values=variables)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python313\Lib\site-packages\wandb\apis\public\api.py", line 111, in execute
+    return self._execute_decorated(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python313\Lib\site-packages\wandb\sdk\lib\retry.py", line 319, in wrapped_fn
+    return retrier(*args, **kargs)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python313\Lib\site-packages\wandb\sdk\lib\retry.py", line 157, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python313\Lib\site-packages\wandb\apis\public\api.py", line 123, in _wrapped
+    return self._client.execute(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python313\Lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python313\Lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python313\Lib\site-packages\wandb\sdk\lib\gql_request.py", line 71, in execute
+    request.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python313\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://api.wandb.ai/graphql

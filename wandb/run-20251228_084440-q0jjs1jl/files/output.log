@@ -1,0 +1,3 @@
+🔌 Connecting to Run: mouadkhaled2004-esi/lending_club_2015/dsgxqlt1...
+❌ FATAL ERROR: Could not fetch metrics from run dsgxqlt1.
+Error details: Object of type Api is not JSON serializable

@@ -1,0 +1,43 @@
+_wandb:
+    value:
+        cli_version: 0.23.1
+        e:
+            vjf4zi5j367wlmgebjwpbpqh35pzwgxu:
+                codePath: test.py
+                codePathLocal: test.py
+                cpu_count: 10
+                cpu_count_logical: 12
+                disk:
+                    /:
+                        total: "254973698048"
+                        used: "156774985728"
+                email: mouadkhaled2004@gmail.com
+                executable: C:\Users\DELL\AppData\Local\Programs\Python\Python313\python.exe
+                host: KhaledoO
+                memory:
+                    total: "33658920960"
+                os: Windows-11-10.0.26200-SP0
+                program: C:\Users\DELL\SEDS\MLOPS Project\test.py
+                python: CPython 3.13.9
+                root: C:\Users\DELL\SEDS\MLOPS Project
+                startedAt: "2025-12-27T16:50:53.905329Z"
+                writerId: vjf4zi5j367wlmgebjwpbpqh35pzwgxu
+        m: []
+        python_version: 3.13.9
+        t:
+            "1":
+                - 5
+                - 6
+                - 53
+                - 105
+            "2":
+                - 5
+                - 6
+                - 53
+                - 105
+            "4": 3.13.9
+            "5": 0.23.1
+            "8":
+                - 3
+            "12": 0.23.1
+            "13": windows-amd64

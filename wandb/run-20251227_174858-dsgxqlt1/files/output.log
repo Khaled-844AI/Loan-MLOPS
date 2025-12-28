@@ -1,0 +1,11 @@
+[34m[1mwandb[0m:   2 of 2 files downloaded.  
+Training final model on full 80% Training set...
+
+Finding optimal threshold on Test Set...
+----------------------------------------
+FINAL RESULTS ON 20% TEST SET
+Optimal Threshold Found: 0.70
+Accuracy: 0.9194
+F1 Score: 0.8118
+ROC AUC : 0.9665
+----------------------------------------

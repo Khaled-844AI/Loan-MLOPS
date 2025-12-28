@@ -1,0 +1,75 @@
+_wandb:
+    value:
+        cli_version: 0.23.1
+        e:
+            62gr7nu59n7lzcsh3t164s4ucf8clvv6:
+                codePath: test.py
+                codePathLocal: test.py
+                cpu_count: 10
+                cpu_count_logical: 12
+                disk:
+                    /:
+                        total: "254973698048"
+                        used: "156867854336"
+                email: mouadkhaled2004@gmail.com
+                executable: C:\Users\DELL\AppData\Local\Programs\Python\Python313\python.exe
+                host: KhaledoO
+                memory:
+                    total: "33658920960"
+                os: Windows-11-10.0.26200-SP0
+                program: C:\Users\DELL\SEDS\MLOPS Project\test.py
+                python: CPython 3.13.9
+                root: C:\Users\DELL\SEDS\MLOPS Project
+                startedAt: "2025-12-28T07:19:48.000634Z"
+                writerId: 62gr7nu59n7lzcsh3t164s4ucf8clvv6
+        m: []
+        python_version: 3.13.9
+        t:
+            "1":
+                - 5
+                - 6
+                - 53
+                - 105
+            "2":
+                - 5
+                - 6
+                - 53
+                - 105
+            "3":
+                - 2
+            "4": 3.13.9
+            "5": 0.23.1
+            "8":
+                - 3
+            "12": 0.23.1
+            "13": windows-amd64
+        visualize:
+            Performance_Comparison_Chart:
+                panel_config:
+                    fieldSettings:
+                        label: Metric
+                        value: Score
+                    panelDefId: wandb/bar/v0
+                    stringSettings:
+                        title: 'Comparison: 2015 vs 2018'
+                    transform:
+                        name: tableWithLeafColNames
+                    userQuery:
+                        queryFields:
+                            - args:
+                                - name: runSets
+                                  value: ${runSets}
+                              fields:
+                                - fields: []
+                                  name: id
+                                - fields: []
+                                  name: name
+                                - fields: []
+                                  name: _defaultColorIndex
+                                - args:
+                                    - name: tableKey
+                                      value: Performance_Comparison_Chart_table
+                                  fields: []
+                                  name: summaryTable
+                              name: runSets
+                panel_type: Vega2

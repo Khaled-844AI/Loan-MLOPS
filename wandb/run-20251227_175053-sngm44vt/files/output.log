@@ -1,0 +1,54 @@
+Loading 2018 data from data_2018/data_2018.csv...
+Original size: 56311. Sampled 10% size: 5631
+Preprocessing sampled data...
+Downloading model from W&B...
+[34m[1mwandb[0m: [32m[41mERROR[0m artifact membership 'xgb_loan_classifier:latest' not found in 'mouadkhaled2004-esi/lending_club_2015'
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python313\Lib\site-packages\wandb\apis\normalize.py", line 28, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python313\Lib\site-packages\wandb\apis\public\api.py", line 1598, in _artifact
+    artifact = Artifact._from_name(
+        path=path,
+        client=self.client,
+        enable_tracking=enable_tracking,
+    )
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python313\Lib\site-packages\wandb\sdk\artifacts\artifact.py", line 335, in _from_name
+    return cls._membership_from_name(path=path, client=client)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python313\Lib\site-packages\wandb\sdk\artifacts\artifact.py", line 319, in _membership_from_name
+    raise ValueError(
+        f"artifact membership {path.name!r} not found in {entity_project!r}"
+    )
+ValueError: artifact membership 'xgb_loan_classifier:latest' not found in 'mouadkhaled2004-esi/lending_club_2015'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\SEDS\MLOPS Project\test.py", line 88, in <module>
+    artifact = wandb.run.use_artifact(MODEL_ARTIFACT)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python313\Lib\site-packages\wandb\sdk\wandb_run.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python313\Lib\site-packages\wandb\sdk\wandb_run.py", line 458, in wrapper_fn
+    return func(self, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python313\Lib\site-packages\wandb\sdk\wandb_run.py", line 445, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python313\Lib\site-packages\wandb\sdk\wandb_run.py", line 3086, in use_artifact
+    artifact = public_api._artifact(type=type, name=name)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python313\Lib\site-packages\wandb\apis\normalize.py", line 82, in wrapper
+    raise CommError(message, err).with_traceback(sys.exc_info()[2])
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python313\Lib\site-packages\wandb\apis\normalize.py", line 28, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python313\Lib\site-packages\wandb\apis\public\api.py", line 1598, in _artifact
+    artifact = Artifact._from_name(
+        path=path,
+        client=self.client,
+        enable_tracking=enable_tracking,
+    )
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python313\Lib\site-packages\wandb\sdk\artifacts\artifact.py", line 335, in _from_name
+    return cls._membership_from_name(path=path, client=client)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python313\Lib\site-packages\wandb\sdk\artifacts\artifact.py", line 319, in _membership_from_name
+    raise ValueError(
+        f"artifact membership {path.name!r} not found in {entity_project!r}"
+    )
+wandb.errors.errors.CommError: artifact membership 'xgb_loan_classifier:latest' not found in 'mouadkhaled2004-esi/lending_club_2015'

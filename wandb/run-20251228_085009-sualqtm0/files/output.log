@@ -1,0 +1,17 @@
+
+Loading 2018 data from data_2018/data_2018.csv...
+Original size: 56311. Sampled 10% size: 5631
+Preprocessing...
+
+Downloading model...
+[34m[1mwandb[0m:   1 of 1 files downloaded.
+Predicting on 2018 data using 2015 Threshold (0.7)...
+
+============================================================
+COMPARISON (Threshold: 0.7)
+METRIC               | 2015 (REAL)     | 2018 (NEW)
+============================================================
+Accuracy             | 0.91938          | 0.48624
+ROC AUC              | 0.96648          | 0.96621
+F1 Score             | 0.81177          | 0.36487
+============================================================
